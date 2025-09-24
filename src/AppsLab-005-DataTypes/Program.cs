@@ -5,6 +5,13 @@ bool mojaBoolHodnota = true;
 DateTime dnesnyDatum = DateTime.Now;
 var neviem2 = "dfghjk";
 int sucet = mojeCislo + 5;
+const int MaxStudents = 15;
+
+
+
+
+
+Console.WriteLine("Maximlany pocet ziakov v triede je:" + MaxStudents);
 
 Console.WriteLine(mojeCislo);
 Console.WriteLine(mojeSlovo);
