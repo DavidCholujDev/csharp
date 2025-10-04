@@ -1,11 +1,42 @@
-﻿Console.WriteLine("Ako sa ty voláš");
-string? meno = Console.ReadLine();
-Console.WriteLine("Ahoj, " + meno + " Koľko máš rokov");
+﻿
+//Console.WriteLine("Ahoj, cislo c. 1");
+//string? number1 = Console.ReadLine();
+//Console.WriteLine("zadaj druhe cislo:");
+//string? number2 = Console.ReadLine();
 
-string vstup = Console.ReadLine() ?? "0";
-int vek = int.Parse(vstup);
-Console.WriteLine("Aha,máš teda " + vek + " rokov.");
 
-Console.WriteLine("Jake je tvoje oblubene jedlo?");
-string? jedlo = Console.ReadLine();
-Console.WriteLine("Hmm " + jedlo + "znie skvelo!!");
+//Console.WriteLine("zadaj operaciu + alebo -");
+//string? operacia = Console.ReadLine();
+
+//if (operacia =
+//int vysledok = int.Parse(number1) - int.Parse(number2);
+//Console.WriteLine($"Vysledok je{vysledok}.");
+//if operacia = "+";
+
+//int vysledok = int.Parse(number1) + int.Parse(number2);
+
+
+//Console.WriteLine($"Vysledok je{vysledok}.");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
