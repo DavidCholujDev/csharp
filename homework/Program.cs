@@ -7,32 +7,15 @@ Console.WriteLine("Zadaj cislo 2");
 string number2 = Console.ReadLine();
 decimal cislo2 = decimal.Parse(number2);
 
-decimal vysledok = 0;
-switch (operacia)
+decimal vysledok = operacia switch
 {
-    case "+":
-        vysledok = cislo1 + cislo2;
-        Console.WriteLine(vysledok);
-        break;
-    case "-":
-        vysledok = cislo2 - cislo2;
-        Console.WriteLine(vysledok);
-        break;
-    case "/":
-        if (cislo2 == 0) 
-        {
-            Console.WriteLine("ty magor nulou sa neda delit");
-        }
-        vysledok = cislo1 / cislo2;     
-        Console.WriteLine(vysledok);
-        break;
-    case "*":
-        vysledok = cislo1 * cislo2;
-        Console.WriteLine(vysledok);
-        break;
-    case "%":
-        vysledok = (cislo1 / cislo2);
-        Console.WriteLine(vysledok);
-        break;
-}
+    "+" => (cislo1 + cislo2),
+    "/" => (cislo1 / cislo2),
+    "-" => (cislo1 - cislo2),
+    "*" => (cislo1 * cislo2),
+    "%" => (cislo1 % cislo2),
+};
+
+Console.WriteLine(vysledok);
+
 
